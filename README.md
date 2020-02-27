@@ -21,6 +21,6 @@ Run `npm run docs-gen` to generate API docs.
 
 Here you can find live demo for the available endpoints:
 
-* Number of tweets in the last hour: [/api/tweets/count](http://localhost:3000/api/tweets/count)
-* Number of users tweeting in the last hour: [/api/tweets/users-count](http://localhost:3000/api/tweets/users-count)
+* Number of tweets in the last hour: [/api/tweets/count](https://twitter-api-iot.herokuapp.com/api/tweets/count)
+* Number of users tweeting in the last hour: [/api/tweets/users-count](https://twitter-api-iot.herokuapp.com/api/tweets/users-count)
 

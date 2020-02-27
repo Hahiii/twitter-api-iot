@@ -1,8 +1,9 @@
-const secrets = require("./secrets.json");
+
 const https = require("https");
 const moment = require('moment');
 let token;
 
+const secrets = process.env.NODE_ENV == 'production' ? process.env : require('../secrets');
 
 /** HttpsRequest to Twitter API and returns a new promise
  * @param {object} option Request params
